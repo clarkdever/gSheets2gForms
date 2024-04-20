@@ -1,6 +1,6 @@
 # Create Google Forms from Google Sheets
 
-This Google Apps Script (`createForm.gs`) automates the process of creating Google Forms based on the data provided in a Google Sheets document. It is designed to convert survey or quiz questions stored in a spreadsheet into a functional Google Form, streamlining the creation process.
+This Google Apps Script [(`createForm.gs`)](createForm.gs) automates the process of creating Google Forms based on the data provided in a Google Sheets document. It is designed to convert survey or quiz questions stored in a spreadsheet into a functional Google Form, streamlining the creation process.
 
 ## Getting Started
 
