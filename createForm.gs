@@ -8,7 +8,7 @@ function createForm() {
   var range = sheet.getDataRange();
   var data = range.getValues().slice(1);  // Skips the first row
 
-  Logger.log(data);  // Log to see the corrected data array
+  Logger.log("{" + data + "} If this is empty, check to make sure the sheet with the questions is furthest to the left in your googlesheets document.");  // Log to see the corrected data array
 
   for (var i = 0; i < data.length; i++) {
     var row = data[i];
@@ -16,7 +16,9 @@ function createForm() {
     var type = row[1];
     var options = row[2];
 
-    Logger.log("Processing: " + title + ", Type: " + type + ", Options: " + options); 
+    //Uncomment the line below for debugging
+    //Logger.log("Processing: " + title + ", Type: " + type + ", Options: " + options);
+
 
     if (title && type) {
       switch (type.toUpperCase()) {
