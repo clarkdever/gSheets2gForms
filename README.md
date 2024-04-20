@@ -65,7 +65,7 @@ For assistance, please raise an issue in the repository.
 
 ## Author
 
-@clarkdever
+[@clarkdever](https://github.com/clarkdever)
 
 ## License
 
